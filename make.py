@@ -6,6 +6,7 @@ def copyAll(directory, extension):
 
 print 'Making css'
 os.system('bash make/sass.sh')
+copyAll('css', 'css')
 print 'Making js'
 copyAll('js', 'js')
 print 'Making index'
